@@ -12,6 +12,16 @@ app.get('/', (req, res) => {
         title: 'test article',
         date: new Date(),
         description: 'test description'
+    },
+    {
+        title: 'test article',
+        date: new Date(),
+        description: 'test description'
+    },
+    {
+        title: 'test article',
+        date: new Date(),
+        description: 'test description'
     }]
     res.render('index', {articles : articles})
 })
