@@ -1,0 +1,27 @@
+{
+  "name": "2ndjan",
+  "version": "1.0.0",
+  "description": "'Ellow!",
+  "main": "index.js",
+  "scripts": {
+    "devStart": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/philbails90/2ndJan.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/philbails90/2ndJan/issues"
+  },
+  "homepage": "https://github.com/philbails90/2ndJan#readme",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.2",
+    "mongoose": "^6.1.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
